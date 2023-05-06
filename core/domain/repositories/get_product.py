@@ -4,7 +4,7 @@ from core.domain.entity.product import Product
 
 class GetProductDefinition(ABC): 
     @abstractmethod
-    def get_product() -> Product:
+    def get_product() -> list[Product]:
         pass
     @abstractmethod
     def get_average_price() -> float:
