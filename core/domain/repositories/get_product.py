@@ -6,3 +6,6 @@ class GetProductDefinition(ABC):
     @abstractmethod
     def get_product() -> Product:
         pass
+    @abstractmethod
+    def get_average_price() -> float:
+        pass

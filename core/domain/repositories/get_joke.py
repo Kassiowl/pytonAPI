@@ -3,5 +3,5 @@ from core.domain.entity.joke import Joke
 
 class GetJokeDefinition(ABC): 
     @abstractmethod
-    def get_product() -> Joke:
+    def get_joke() -> Joke:
         pass
