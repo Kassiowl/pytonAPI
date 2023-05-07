@@ -8,8 +8,10 @@ Apesar de eu estar usando arquitetura limpa aqui, com inversão de dependência 
 Utilizei o banco de dados sqlite3, popular principalmente para ambientes de testes e coisas assim, não muito adequado para software em produção, Dependendo da aplicação, poderia ser um noSQL como um mongoDB ou um dos SGBD sql já populares, como o mySQL e o postgreSQL, mas como é só um teste, decidi usar esse pela facilidade.
 
 ## Instruções
-- pip install -r requirements.txt 
 - Vá para a pasta root do projeto, onde há o arquivo "main.py"
+- pip install -r requirements.txt 
 - Execute python main.py
+- A versão do python usada foi o 3.11.3, não acredito que irá ter algum problema caso seja executado em outra versão, mas deixando aqui só por garantia
 
 - baixa a extensão "SQLite Viewer" no visual studio code, para conseguir visualizar o banco de dados, ou busque a visualização de outra forma
+- O código será executado no terminal, e, além disso, irá criar um arquivo "product.db" onde irá conter os registros do banco de dados
