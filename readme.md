@@ -7,3 +7,6 @@ Apesar de eu estar usando arquitetura limpa aqui, com inversão de dependência 
 
 ## Instruções
 - pip install -r requirements.txt
+
+
+- baixa a extensão "SQLite Viewer" no visual studio code, para conseguir visualizar o banco de dados, ou busque a visualização de outra forma
