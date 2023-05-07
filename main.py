@@ -1,4 +1,5 @@
 from core.application.use_cases.get_joke import GetJoke
+from core.application.use_cases.save_product import SaveProduct
 from core.infraestructure.get_joke_impl import GetJokeImpl
 from core.infraestructure.get_product_impl import GetProductImpl
 
@@ -22,11 +23,14 @@ chuck_norris_joke = get_joke_use_case.run()
 
 
 save_product_impl = SaveProductImpl()
+save_product_use_case = SaveProduct(save_product_impl)
 save_product_impl.create_table()
+
+save_product_use_case = SaveProduct(save_product_impl)
 for product in all_products:
     print("product____,")
     print(product)
-    print(save_product_impl.save_product(product))
+    print(save_product_use_case.run(product))
 
 print("## Resultado da coleta de dados ##")
 print("Preço médio dos smartphones: $",average_price)

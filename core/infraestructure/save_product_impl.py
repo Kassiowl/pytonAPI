@@ -16,6 +16,7 @@ class SaveProductImpl(SaveProductDefinition):
             self.cur.execute(f"""
                 INSERT INTO products VALUES('{product.id}', '{product.title}', '{product.price}', '{product.category}')
             """)
+            self.con.commit()
             return True
         except Exception as e:
             print(e)

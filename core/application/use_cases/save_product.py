@@ -8,4 +8,4 @@ class SaveProduct():
         self.save_product_impl = save_product_impl
     
     def run(self, product: Product):
-        return self.save_product_impl.save_product()
+        return self.save_product_impl.save_product(product)
