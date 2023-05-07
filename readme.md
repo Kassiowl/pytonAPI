@@ -9,7 +9,7 @@ Utilizei o banco de dados sqlite3, popular principalmente para ambientes de test
 
 ## Instruções
 - Vá para a pasta root do projeto, onde há o arquivo "main.py"
-- pip install -r requirements.txt 
+- execute - ```pip install -r requirements.txt```
 - Execute python main.py
 - A versão do python usada foi o 3.11.3, não acredito que irá ter algum problema caso seja executado em outra versão, mas deixando aqui só por garantia
 
