@@ -2,7 +2,7 @@
 
 from core.domain.repositories.get_joke import GetJokeDefinition
 
-class GetJoke():
+class GetJokeUseCase():
     def __init__(self, get_joke_impl: GetJokeDefinition):
         self.get_joke_impl = get_joke_impl
     

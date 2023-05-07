@@ -3,7 +3,7 @@
 from core.domain.entity.product import Product
 from core.domain.repositories.save_product import SaveProductDefinition
 
-class SaveProduct():
+class SaveProductUseCase():
     def __init__(self, save_product_impl: SaveProductDefinition):
         self.save_product_impl = save_product_impl
     
